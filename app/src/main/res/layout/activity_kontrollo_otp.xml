@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KontrolloOTP">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-53dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:scaleX="3"
+            android:scaleY="3"
+            android:text="Shifra:" />
+
+        <EditText
+            android:id="@+id/OtpTxt"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:hint="Sheno shifren"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:layout_marginTop="40dp"
+            />
+
+
+        <Button
+            android:id="@+id/Verifybtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Verifiko" />
+
+        <Button
+            android:id="@+id/resendbtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Ridergo" />
+
+        <TextView
+            android:id="@+id/LogRedirect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Kthehu"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
